@@ -20,7 +20,7 @@
 
 I enjoy building production-grade AI systems that solve complex
 engineering problems. My work spans backend infrastructure, multi-agent
-architectures, LLM orchestration, and AI-powered video generation.
+architectures, LLM orchestration.
 
 ------------------------------------------------------------------------
 
