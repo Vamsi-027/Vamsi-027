@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=720&lines=vamsi+cheruku;i+build+agents+that+ship.;distributed+systems+%E2%86%92+agentic+AI;prompt+in.+production+out." alt="typing header" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=32&duration=2200&pause=4000&color=00FF9C&center=true&vCenter=true&width=720&height=80&lines=VAMSI+CHERUKU" alt="VAMSI CHERUKU" />
 
 <br/>
 
@@ -79,8 +79,7 @@ flowchart LR
 |---|---|---|
 | 🃏 **Back2Cards** | real-time multiplayer card game · WebSockets + WebRTC | [▶ live](https://www.back2cards.fun/) |
 | 🧠 **Entropy.me** | temporal memory graph: talk to your past / present / future self | Supermemory hackathon |
-| 🏥 **MediBuddy** | AI assistant for patient workflows · Next.js, Node, Postgres | — |
-| 🚗 **SamCars** | dealership management platform · Node, Express, Postgres | — |
+| 🚗 **SamCars** | dealership management platform · Node, Express, Postgres | [▶ live](https://saamcars.com) |
 
 ---
 
@@ -96,17 +95,6 @@ flowchart LR
 </p>
 
 ---
-
-## 📈 receipts
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Vamsi-027&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Vamsi-027&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vamsi-027&theme=tokyo-night&hide_border=true&area=true" />
-</p>
 
 <p align="center">
   <picture>
