@@ -10,116 +10,94 @@
 <a href="mailto:vamsicheruku027@gmail.com"><img src="https://img.shields.io/badge/email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" /></a>
 <img src="https://komarev.com/ghpvc/?username=Vamsi-027&style=for-the-badge&color=00FF9C&label=VIEWS" />
 
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vamsi-027/Vamsi-027/output/github-snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Vamsi-027/Vamsi-027/output/github-snake.svg" />
+</picture>
+
 </div>
 
 ---
 
-```ts
-const vamsi = {
-  past:    "3 yrs backend & distributed systems @ Zoho",
-  now:     "MS AI @ Saint Louis University",
-  builds:  ["autonomous agents", "multi-agent pipelines", "LLM → video infra"],
-  thinks:  "queues, retries & failure modes before prompts",
-  ships:   "to prod. not localhost.",
-  open_to: ["Founding Eng", "AI Infra", "Agentic AI", "Distributed Systems", "Video AI"],
-} as const;
+```console
+vamsi@cheruku:~$ neofetch
+---------------------------------------------------------------
+ kernel     3 yrs backend & distributed systems @ Zoho
+ runtime    MS Artificial Intelligence @ Saint Louis University
+ shell      java · python · typescript
+ packages   langgraph · kafka · redis · k8s · remotion · mcp
+ building   autonomous agents · multi-agent pipelines · llm → video infra
+ philosophy failure modes before prompts
+ deploy     prod > localhost
+ status     ● open to founding eng · ai infra · agentic ai · distributed systems · video ai
+---------------------------------------------------------------
+vamsi@cheruku:~$ █
 ```
 
 ---
 
-## 🛰️ agent echo &nbsp;·&nbsp; `it does my dev marketing. i just tap approve.`
+## AgentEcho
 
-An autonomous agent that watches what I build, writes about it, renders a narrated video, and publishes it.
-**It has already shipped a post without me touching a keyboard.**
+An agent that turns my daily engineering work into posts and videos, then publishes them. It has already posted on its own.
 
 ```mermaid
 flowchart LR
-    A[GitHub] --> C
-    B[Notion] --> C
-    X[Browser] --> C
-    C[(SQLite<br/>integration layer)] --> D{{LangGraph<br/>pillar classifier}}
-    D --> E[Post writer]
-    D --> F[Script writer]
-    F --> G[ElevenLabs VO<br/>word timestamps]
-    G --> H[Remotion<br/>timestamp-driven cuts]
-    E --> I{Telegram<br/>approve?}
-    H --> I
-    I -->|yes| J[LinkedIn]
-    I -->|yes| K[X]
-    S[APScheduler] -.cron.-> C
+    A[GitHub · Notion · Browser] --> B[LangGraph]
+    B --> C[Post + Video]
+    C --> D{Telegram approve}
+    D --> E[LinkedIn · X]
 ```
 
-- Word-level voiceover timestamps **decide where shots cut**. No hand editing.
-- Spring-physics motion and a codified design system for type, cut types and color grading
-- Human-in-the-loop over Telegram: autonomous, but nothing goes out without a yes
-
-`Python` `LangGraph` `Remotion` `ElevenLabs` `SQLite` `APScheduler`
+`Python` `LangGraph` `Remotion` `ElevenLabs` `SQLite`
 
 ---
 
-## 🎬 agent motif &nbsp;·&nbsp; `motion design, compiled.`
+## AgentMotif
 
-Plain English in, rendered motion graphics out. Each agent owns exactly one layer of abstraction, so you debug **one stage at a time** instead of one giant prompt.
+Type a prompt, get a motion graphic. Three agents, each with one job.
 
 ```mermaid
 flowchart LR
-    P([prompt]) --> D[Director<br/>intent · narrative]
-    D --> PL[Planner<br/>scenes · timeline · keyframes]
-    PL --> R[Renderer<br/>compile → Remotion]
-    R --> V([mp4])
+    A([prompt]) --> B[Director] --> C[Planner] --> D[Renderer] --> E([video])
 ```
 
-`Python` `TypeScript` `Remotion` `LLMs` `Multi-Agent`
+`Python` `TypeScript` `Remotion` `LLMs`
 
 ---
 
-## 🧪 also shipped
+## AlsoShipped
 
-| project | what | proof |
-|---|---|---|
-| 🃏 **Back2Cards** | real-time multiplayer card game · WebSockets + WebRTC | [▶ live](https://www.back2cards.fun/) |
-| 🧠 **Entropy.me** | temporal memory graph: talk to your past / present / future self | Supermemory hackathon |
-| 🚗 **SamCars** | dealership management platform · Node, Express, Postgres | [▶ live](https://saamcars.com) |
+- **[Back2Cards](https://www.back2cards.fun/)**: real-time multiplayer card game (WebSockets + WebRTC)
+- **[SamCars](https://saamcars.com)**: dealership management platform (Node, Postgres)
+- **Entropy.me**: chat with past, present and future versions of yourself (Supermemory hackathon)
 
 ---
 
-## 🧱 stack
+## TechStack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,py,ts,js,spring,nodejs,react,nextjs,tailwind&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=kafka,redis,postgres,elasticsearch,sqlite,docker,kubernetes,aws,githubactions,vercel,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,py,ts,spring,nodejs,react,nextjs,kafka,redis,postgres,docker,kubernetes,aws,vercel&theme=dark" />
 </p>
 
 <p align="center">
-  <code>LangGraph</code> <code>MCP</code> <code>RAG</code> <code>Context Engineering</code> <code>OpenAI</code> <code>Anthropic</code> <code>Gemini</code> <code>Remotion</code> <code>FFmpeg</code> <code>ElevenLabs</code>
+  <code>LangGraph</code> <code>MCP</code> <code>RAG</code> <code>Remotion</code> <code>FFmpeg</code>
 </p>
 
 ---
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vamsi-027/Vamsi-027/output/github-snake-dark.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Vamsi-027/Vamsi-027/output/github-snake.svg" />
-  </picture>
-</p>
-
----
-
-## 🔬 currently going deep on
+## LearningNow
 
 ```diff
-+ agent memory        graph memory vs flat retrieval, and where each one breaks
-+ context engineering what goes in the window > which model reads it
-+ agent evals         can't measure it → it's a demo
-+ video infra         rendering as a tool agents can call reliably
++ agent memory
++ context engineering
++ agent evals
++ video infra for LLMs
 ```
 
 ---
 
-<div align="center">
+## LetsTalk
 
-**building agents that have to survive production? → [vamsicheruku027@gmail.com](mailto:vamsicheruku027@gmail.com)**
-
-<sub>agents that don't just answer questions. they build things.</sub>
-
-</div>
+Building agents that need to work in production? **[vamsicheruku027@gmail.com](mailto:vamsicheruku027@gmail.com)**
