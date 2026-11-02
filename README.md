@@ -1,128 +1,137 @@
-# Hi, I'm Vamsi Cheruku 👋
+<div align="center">
 
-> Building AI infrastructure, agentic systems, and video-native
-> developer tools.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=720&lines=vamsi+cheruku;i+build+agents+that+ship.;distributed+systems+%E2%86%92+agentic+AI;prompt+in.+production+out." alt="typing header" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-vamsicheruku.com-blue)](https://vamsicheruku.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vamsi%20Cheruku-0A66C2)](https://linkedin.com/in/vamsi-cheruku)
-[![Email](https://img.shields.io/badge/Email-vamsicheruku027%40gmail.com-green)](mailto:vamsicheruku027@gmail.com)
-[![](https://img.shields.io/badge/Email-vamsicheruku018%40gmail.com-green)](mailto:vamsicheruku18@gmail.com)
+<br/>
 
-------------------------------------------------------------------------
+<a href="https://vamsicheruku.com"><img src="https://img.shields.io/badge/vamsicheruku.com-0d1117?style=for-the-badge&logo=googlechrome&logoColor=00FF9C" /></a>
+<a href="https://linkedin.com/in/vamsi-cheruku"><img src="https://img.shields.io/badge/linkedin-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" /></a>
+<a href="https://x.com/cheruku_vamsi"><img src="https://img.shields.io/badge/@cheruku__vamsi-0d1117?style=for-the-badge&logo=x&logoColor=white" /></a>
+<a href="mailto:vamsicheruku027@gmail.com"><img src="https://img.shields.io/badge/email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" /></a>
+<img src="https://komarev.com/ghpvc/?username=Vamsi-027&style=for-the-badge&color=00FF9C&label=VIEWS" />
 
-## 🚀 About Me
+</div>
 
--   🎓 MS in Artificial Intelligence @ Saint Louis University
--   💼 Former Software Engineer @ Zoho Corporation (3 years)
--   📍 St. Louis, Missouri, USA
--   🤖 Passionate about Agentic AI, AI Infrastructure, Distributed
-    Systems, and Video Generation
+---
 
-I enjoy building production-grade AI systems that solve complex
-engineering problems. My work spans backend infrastructure, multi-agent
-architectures, LLM orchestration.
+```ts
+const vamsi = {
+  past:    "3 yrs backend & distributed systems @ Zoho",
+  now:     "MS AI @ Saint Louis University",
+  builds:  ["autonomous agents", "multi-agent pipelines", "LLM → video infra"],
+  thinks:  "queues, retries & failure modes before prompts",
+  ships:   "to prod. not localhost.",
+  open_to: ["Founding Eng", "AI Infra", "Agentic AI", "Distributed Systems", "Video AI"],
+} as const;
+```
 
-------------------------------------------------------------------------
+---
 
-## 🛠️ Tech Stack
+## 🛰️ agent echo &nbsp;·&nbsp; `it does my dev marketing. i just tap approve.`
 
-### Languages
+An autonomous agent that watches what I build, writes about it, renders a narrated video, and publishes it.
+**It has already shipped a post without me touching a keyboard.**
 
-Java • Python • TypeScript • JavaScript • SQL
+```mermaid
+flowchart LR
+    A[GitHub] --> C
+    B[Notion] --> C
+    X[Browser] --> C
+    C[(SQLite<br/>integration layer)] --> D{{LangGraph<br/>pillar classifier}}
+    D --> E[Post writer]
+    D --> F[Script writer]
+    F --> G[ElevenLabs VO<br/>word timestamps]
+    G --> H[Remotion<br/>timestamp-driven cuts]
+    E --> I{Telegram<br/>approve?}
+    H --> I
+    I -->|yes| J[LinkedIn]
+    I -->|yes| K[X]
+    S[APScheduler] -.cron.-> C
+```
 
-### AI & ML
+- Word-level voiceover timestamps **decide where shots cut**. No hand editing.
+- Spring-physics motion and a codified design system for type, cut types and color grading
+- Human-in-the-loop over Telegram: autonomous, but nothing goes out without a yes
 
-OpenAI • Anthropic • Gemini • LangGraph • MCP • Prompt Engineering • RAG
+`Python` `LangGraph` `Remotion` `ElevenLabs` `SQLite` `APScheduler`
 
-### Backend
+---
 
-Node.js • Express • PostgreSQL • Redis • Elasticsearch • Kafka
+## 🎬 agent motif &nbsp;·&nbsp; `motion design, compiled.`
 
-### Frontend
+Plain English in, rendered motion graphics out. Each agent owns exactly one layer of abstraction, so you debug **one stage at a time** instead of one giant prompt.
 
-React • Next.js • Tailwind CSS
+```mermaid
+flowchart LR
+    P([prompt]) --> D[Director<br/>intent · narrative]
+    D --> PL[Planner<br/>scenes · timeline · keyframes]
+    PL --> R[Renderer<br/>compile → Remotion]
+    R --> V([mp4])
+```
 
-### Infrastructure
+`Python` `TypeScript` `Remotion` `LLMs` `Multi-Agent`
 
-Docker • GitHub Actions • Vercel • Railway • Git • Linux
+---
 
-### Video AI
+## 🧪 also shipped
 
-Remotion • FFmpeg • Motion Graphics • Timeline Composition
+| project | what | proof |
+|---|---|---|
+| 🃏 **Back2Cards** | real-time multiplayer card game · WebSockets + WebRTC | [▶ live](https://www.back2cards.fun/) |
+| 🧠 **Entropy.me** | temporal memory graph: talk to your past / present / future self | Supermemory hackathon |
+| 🏥 **MediBuddy** | AI assistant for patient workflows · Next.js, Node, Postgres | — |
+| 🚗 **SamCars** | dealership management platform · Node, Express, Postgres | — |
 
-------------------------------------------------------------------------
+---
 
-## ✨ Highlights
+## 🧱 stack
 
--   🚀 Building **Agent Motif**, an AI-native motion design system
-    powered by multi-agent planning.
--   🧠 Developing **Agent Echo**, an autonomous AI agent that transforms
-    developer activity into polished technical content.
--   ⚡ Built scalable backend systems at Zoho serving enterprise-scale
-    applications.
--   🎯 Focused on production AI systems rather than AI demos.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,py,ts,js,spring,nodejs,react,nextjs,tailwind&theme=dark" /><br/>
+  <img src="https://skillicons.dev/icons?i=kafka,redis,postgres,elasticsearch,sqlite,docker,kubernetes,aws,githubactions,vercel,linux&theme=dark" />
+</p>
 
-------------------------------------------------------------------------
+<p align="center">
+  <code>LangGraph</code> <code>MCP</code> <code>RAG</code> <code>Context Engineering</code> <code>OpenAI</code> <code>Anthropic</code> <code>Gemini</code> <code>Remotion</code> <code>FFmpeg</code> <code>ElevenLabs</code>
+</p>
 
-## 🔭 Featured Projects
+---
 
-### 🎬 Agent Motif
+## 📈 receipts
 
-Transforms natural language into production-quality motion graphics
-using a Director → Planner → Renderer architecture.
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Vamsi-027&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Vamsi-027&theme=tokyonight&hide_border=true" />
+</p>
 
-**Tech:** Python · TypeScript · Remotion · LLMs · Multi-Agent Systems
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vamsi-027&theme=tokyo-night&hide_border=true&area=true" />
+</p>
 
-### ✍️ Agent Echo
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vamsi-027/Vamsi-027/output/github-snake-dark.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Vamsi-027/Vamsi-027/output/github-snake.svg" />
+  </picture>
+</p>
 
-An autonomous AI agent that converts commits, code changes, and
-engineering activity into technical content.
+---
 
-**Tech:** Python · GitHub API · LLMs
+## 🔬 currently going deep on
 
-### 🏥 MediBuddy
+```diff
++ agent memory        graph memory vs flat retrieval, and where each one breaks
++ context engineering what goes in the window > which model reads it
++ agent evals         can't measure it → it's a demo
++ video infra         rendering as a tool agents can call reliably
+```
 
-AI-powered healthcare assistant for intelligent patient workflows.
+---
 
-**Tech:** Next.js · Node.js · PostgreSQL
+<div align="center">
 
-### 🚗 SamCars
+**building agents that have to survive production? → [vamsicheruku027@gmail.com](mailto:vamsicheruku027@gmail.com)**
 
-Full-stack dealership management platform.
+<sub>agents that don't just answer questions. they build things.</sub>
 
-**Tech:** Node.js · Express · PostgreSQL
-
-------------------------------------------------------------------------
-
-
-## 💬 Connect With Me
-
--   🌐 https://vamsicheruku.com
--   💼 https://linkedin.com/in/vamsi-cheruku
--   📧 vamsicheruku027@gmail.com, vamsicheruku18@gmail.com
--   𝕏 https://x.com/cheruku_vamsi
-
-    ------------------------------------------------------------------------
-
-## 🎯 Currently Looking For
-
--   Founding Engineer
--   AI Infrastructure Engineer
--   Agentic AI Engineer
--   Backend / Distributed Systems Engineer
--   Video AI & LLM Infrastructure
-
-------------------------------------------------------------------------
-
-## 🌱 Currently Learning
-
--   Context Engineering
--   AI Memory Systems
--   Agent Evaluation
--   Video Infrastructure for LLMs
--   Autonomous Multi-Agent Systems
-
-------------------------------------------------------------------------
-
-> *Building AI systems that don't just answer questions---they build
-> products.* 🚀
+</div>
